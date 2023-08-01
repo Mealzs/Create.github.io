@@ -180,6 +180,9 @@ img {
 
 /* Change background header */
 
+.bg-header{
+  box-shadow: 0 1px 16px hsla(210, 55%, 24%, .90);
+}
 
 /*=============== HOME ===============*/
 
@@ -236,8 +239,9 @@ img {
 }
 
 .home__bird-1{
-  bottom: -6rem;
+  bottom: -5rem;
   rotate: -30deg;
+  left: 1rem;
 }
 
 .home__bird-2{
@@ -328,10 +332,12 @@ img {
   }
 
   .home__content{
-    max-width: 550px;
+    max-width: 900px;
   }
   .home__data{
     row-gap: 1rem;
+    padding-left: 12rem;
+
   }
   .home__subtitle{
     font-size: var(--normal-font-size);
@@ -358,12 +364,12 @@ img {
     width: 80px;
   }
   .home__bird-1{
-    bottom: -7rem;
-    left: -7rem;
+    bottom: -6rem;
+    left: 8rem;
   }
   .home__bird-2{
-    top: 0;
-    right: -6rem;
+    top: 3rem;
+    right: 1rem;
   }
   
   .home__images img{
